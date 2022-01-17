@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" async></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre " type="text" name="nombre" class="mb-1"/>
+            <label for="nombre">De lo aprendido hasta ahora ¿Qué tema te gustó más?</label>
+            <input id="select" type="text" name="select" class="mb-1"/>
+            <select id="select">
+                <option>Elije uno</option>
+                <option>Objetos</option>
+                <option>Metodos</option>
+                <option>Arrays</option>
+                <option>funciones</option>
+                <option>DOM</option>
+            </select>
+            <label for="preferencia" class="mb-1">Preferis estudiar de:</label>
+                <input type="radio" name="preferencia" id="prefencia" value="primeraOpcion" checked="cheked"><span>Día</span>
+                <input type="radio" name="preferencia" id="preferencia" value="segundaOpcion" cheked="checked"><span>Noche</span>       
+            </label>
+            <label for="complejo" class="mb-1">¿Cuales fueron los temas más complejos hasta ahora?</label>
+                <label><input type="checkbox" name="typescript" ><span>TypeScript</span></label>
+                <label><input type="checkbox" name="promesas"><span>Promesas</span></label>
+                <label><input type="checkbox" name="clases"><span>Clases</span></label>
+                <label><input type="checkbox" name="funciones"><span>Funciones</span></label>
+        </form>
+        <button type="submit"></button>
+
+</body>
+</html>
